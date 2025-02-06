@@ -11,6 +11,7 @@ function tsNatural(){
 function launchAsAdmin() {
     press("GUI");
     delay(200);
+    type("cmd"); //Program you want to type out or run
     delay(500); 
     press("CTRL SHIFT ENTER"); //Run as admin
     delay(500);
